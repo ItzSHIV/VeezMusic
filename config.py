@@ -32,7 +32,7 @@ ALIVE_NAME = getenv("ALIVE_NAME", "KURAMA")
 OWNER_ID = int(os.environ.get("OWNER_ID"))
 DATABASE_URL = os.environ.get("DATABASE_URL")  # fill with your mongodb url
 # make a private channel and get the channel id
-LOG_CHANNEL = int(os.environ.get("1001671050555"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
 # just fill with True or False (optional)
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
